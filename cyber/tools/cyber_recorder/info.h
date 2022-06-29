@@ -21,8 +21,9 @@
 #include <iomanip>
 #include <string>
 
-#include "cyber/common/time_conversion.h"
 #include "cyber/proto/record.pb.h"
+
+#include "cyber/common/time_conversion.h"
 #include "cyber/record/file/record_file_reader.h"
 
 using ::apollo::cyber::common::UnixSecondsToString;

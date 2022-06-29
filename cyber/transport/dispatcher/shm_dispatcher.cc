@@ -15,6 +15,7 @@
  *****************************************************************************/
 
 #include "cyber/transport/dispatcher/shm_dispatcher.h"
+
 #include "cyber/common/global_data.h"
 #include "cyber/common/util.h"
 #include "cyber/scheduler/scheduler_factory.h"

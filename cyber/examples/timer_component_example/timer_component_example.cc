@@ -16,9 +16,10 @@
 
 #include "cyber/examples/timer_component_example/timer_component_example.h"
 
+#include "cyber/examples/proto/examples.pb.h"
+
 #include "cyber/class_loader/class_loader.h"
 #include "cyber/component/component.h"
-#include "cyber/examples/proto/examples.pb.h"
 
 bool TimerComponentSample::Init() {
   driver_writer_ = node_->CreateWriter<Driver>("/carstatus/channel");

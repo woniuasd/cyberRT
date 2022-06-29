@@ -17,8 +17,9 @@
 #ifndef CYBER_TRANSPORT_RTPS_UNDERLAY_MESSAGE_TYPE_H_
 #define CYBER_TRANSPORT_RTPS_UNDERLAY_MESSAGE_TYPE_H_
 
-#include "cyber/transport/rtps/underlay_message.h"
 #include "fastrtps/TopicDataType.h"
+
+#include "cyber/transport/rtps/underlay_message.h"
 
 namespace apollo {
 namespace cyber {

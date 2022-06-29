@@ -15,6 +15,7 @@
  *****************************************************************************/
 
 #include "cyber/service_discovery/specific_manager/node_manager.h"
+
 #include "cyber/common/global_data.h"
 #include "cyber/common/log.h"
 #include "cyber/state.h"

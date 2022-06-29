@@ -17,6 +17,7 @@
 #include "cyber/service_discovery/container/single_value_warehouse.h"
 
 #include <utility>
+
 #include "gtest/gtest.h"
 
 namespace apollo {

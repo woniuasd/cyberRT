@@ -15,8 +15,9 @@
  *****************************************************************************/
 #include <memory>
 
-#include "cyber/component/component.h"
 #include "cyber/examples/proto/examples.pb.h"
+
+#include "cyber/component/component.h"
 
 using apollo::cyber::Component;
 using apollo::cyber::ComponentBase;

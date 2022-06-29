@@ -16,9 +16,10 @@
 
 #include "cyber/transport/rtps/participant.h"
 
+#include "cyber/proto/transport_conf.pb.h"
+
 #include "cyber/common/global_data.h"
 #include "cyber/common/log.h"
-#include "cyber/proto/transport_conf.pb.h"
 
 namespace apollo {
 namespace cyber {

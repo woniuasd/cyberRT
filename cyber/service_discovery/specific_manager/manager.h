@@ -29,8 +29,9 @@
 #include "fastrtps/publisher/Publisher.h"
 #include "fastrtps/subscriber/Subscriber.h"
 
-#include "cyber/base/signal.h"
 #include "cyber/proto/topology_change.pb.h"
+
+#include "cyber/base/signal.h"
 #include "cyber/service_discovery/communication/subscriber_listener.h"
 
 namespace apollo {

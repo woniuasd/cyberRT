@@ -15,6 +15,7 @@
  *****************************************************************************/
 
 #include "cyber/transport/shm/shm_conf.h"
+
 #include "cyber/common/log.h"
 
 namespace apollo {

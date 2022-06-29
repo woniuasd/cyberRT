@@ -133,7 +133,7 @@ void Recorder::FindNewChannel(const RoleAttributes& role_attr) {
   }
 
   if (std::find(black_channels_.begin(), black_channels_.end(),
-      role_attr.channel_name()) != black_channels_.end()) {
+                role_attr.channel_name()) != black_channels_.end()) {
     ADEBUG << "New channel '" << role_attr.channel_name()
            << "' was found, but it appears in the blacklist.";
     return;

@@ -19,7 +19,6 @@
 
 #include <cassert>
 #include <cstdio>
-
 #include <map>
 #include <memory>
 #include <mutex>

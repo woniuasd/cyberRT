@@ -17,11 +17,13 @@
 #include "cyber/transport/dispatcher/rtps_dispatcher.h"
 
 #include <memory>
+
 #include "gtest/gtest.h"
+
+#include "cyber/proto/unit_test.pb.h"
 
 #include "cyber/common/util.h"
 #include "cyber/init.h"
-#include "cyber/proto/unit_test.pb.h"
 #include "cyber/transport/common/identity.h"
 #include "cyber/transport/qos/qos_profile_conf.h"
 #include "cyber/transport/transport.h"

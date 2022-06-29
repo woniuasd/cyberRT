@@ -19,9 +19,10 @@
 
 #include <string>
 
-#include "cyber/proto/qos_profile.pb.h"
 #include "fastrtps/attributes/PublisherAttributes.h"
 #include "fastrtps/attributes/SubscriberAttributes.h"
+
+#include "cyber/proto/qos_profile.pb.h"
 
 namespace apollo {
 namespace cyber {

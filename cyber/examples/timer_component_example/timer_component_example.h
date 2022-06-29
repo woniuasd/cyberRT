@@ -15,10 +15,11 @@
  *****************************************************************************/
 #include <memory>
 
+#include "cyber/examples/proto/examples.pb.h"
+
 #include "cyber/class_loader/class_loader.h"
 #include "cyber/component/component.h"
 #include "cyber/component/timer_component.h"
-#include "cyber/examples/proto/examples.pb.h"
 
 using apollo::cyber::Component;
 using apollo::cyber::ComponentBase;

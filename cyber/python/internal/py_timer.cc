@@ -16,10 +16,10 @@
 
 #include "cyber/python/internal/py_timer.h"
 
+#include <Python.h>
+
 #include <set>
 #include <string>
-
-#include <Python.h>
 
 using apollo::cyber::PyTimer;
 

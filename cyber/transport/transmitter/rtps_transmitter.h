@@ -20,15 +20,16 @@
 #include <memory>
 #include <string>
 
+#include "fastrtps/Domain.h"
+#include "fastrtps/attributes/PublisherAttributes.h"
+#include "fastrtps/participant/Participant.h"
+#include "fastrtps/publisher/Publisher.h"
+
 #include "cyber/common/log.h"
 #include "cyber/message/message_traits.h"
 #include "cyber/transport/rtps/attributes_filler.h"
 #include "cyber/transport/rtps/participant.h"
 #include "cyber/transport/transmitter/transmitter.h"
-#include "fastrtps/Domain.h"
-#include "fastrtps/attributes/PublisherAttributes.h"
-#include "fastrtps/participant/Participant.h"
-#include "fastrtps/publisher/Publisher.h"
 
 namespace apollo {
 namespace cyber {

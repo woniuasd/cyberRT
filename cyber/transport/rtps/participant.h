@@ -22,12 +22,13 @@
 #include <mutex>
 #include <string>
 
-#include "cyber/transport/rtps/underlay_message_type.h"
 #include "fastrtps/Domain.h"
 #include "fastrtps/attributes/ParticipantAttributes.h"
 #include "fastrtps/participant/Participant.h"
 #include "fastrtps/participant/ParticipantListener.h"
 #include "fastrtps/rtps/common/Locator.h"
+
+#include "cyber/transport/rtps/underlay_message_type.h"
 
 namespace apollo {
 namespace cyber {

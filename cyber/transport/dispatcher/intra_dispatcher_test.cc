@@ -17,11 +17,13 @@
 #include "cyber/transport/dispatcher/intra_dispatcher.h"
 
 #include <memory>
+
 #include "gtest/gtest.h"
+
+#include "cyber/proto/unit_test.pb.h"
 
 #include "cyber/common/util.h"
 #include "cyber/message/raw_message.h"
-#include "cyber/proto/unit_test.pb.h"
 #include "cyber/transport/common/identity.h"
 
 namespace apollo {

@@ -27,10 +27,11 @@
 #include <string>
 #include <thread>
 
+#include "cyber/proto/record.pb.h"
+
 #include "cyber/message/protobuf_factory.h"
 #include "cyber/message/py_message.h"
 #include "cyber/message/raw_message.h"
-#include "cyber/proto/record.pb.h"
 #include "cyber/record/record_message.h"
 #include "cyber/record/record_reader.h"
 #include "cyber/record/record_writer.h"

@@ -22,8 +22,9 @@
 #include <string>
 #include <vector>
 
-#include "cyber/common/log.h"
 #include "cyber/proto/record.pb.h"
+
+#include "cyber/common/log.h"
 #include "cyber/record/file/record_file_reader.h"
 #include "cyber/record/file/record_file_writer.h"
 

@@ -25,11 +25,12 @@
 #include <unordered_map>
 #include <vector>
 
+#include "cyber/proto/role_attributes.pb.h"
+#include "cyber/proto/transport_conf.pb.h"
+
 #include "cyber/common/global_data.h"
 #include "cyber/common/log.h"
 #include "cyber/common/types.h"
-#include "cyber/proto/role_attributes.pb.h"
-#include "cyber/proto/transport_conf.pb.h"
 #include "cyber/task/task.h"
 #include "cyber/transport/message/history.h"
 #include "cyber/transport/rtps/participant.h"

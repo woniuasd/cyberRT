@@ -17,6 +17,7 @@
 #include "cyber/service_discovery/container/graph.h"
 
 #include <string>
+
 #include "gtest/gtest.h"
 
 namespace apollo {

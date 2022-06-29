@@ -18,10 +18,12 @@
 
 #include <set>
 #include <string>
+
 #include "gtest/gtest.h"
 
-#include "cyber/cyber.h"
 #include "cyber/proto/unit_test.pb.h"
+
+#include "cyber/cyber.h"
 
 namespace apollo {
 namespace cyber {

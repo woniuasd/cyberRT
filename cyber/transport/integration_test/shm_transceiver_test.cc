@@ -18,12 +18,14 @@
 #include <string>
 #include <thread>
 #include <vector>
+
 #include "gtest/gtest.h"
+
+#include "cyber/proto/unit_test.pb.h"
 
 #include "cyber/common/global_data.h"
 #include "cyber/common/util.h"
 #include "cyber/init.h"
-#include "cyber/proto/unit_test.pb.h"
 #include "cyber/transport/receiver/shm_receiver.h"
 #include "cyber/transport/transmitter/shm_transmitter.h"
 #include "cyber/transport/transport.h"

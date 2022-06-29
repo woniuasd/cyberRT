@@ -18,6 +18,7 @@
 #define CYBER_TRANSPORT_SHM_MULTICAST_NOTIFIER_H_
 
 #include <netinet/in.h>
+
 #include <atomic>
 
 #include "cyber/common/macros.h"
