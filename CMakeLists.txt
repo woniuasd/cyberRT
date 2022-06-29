@@ -59,3 +59,5 @@ endif()
 
 add_library(cyber SHARED ${ALL_SRC})
 target_link_libraries(cyber ${PROTOBUF_LIBRARIES} fastrtps fastcdr glog rt atomic uuid dl)
+
+add_subdirectory(cyber/examples)
