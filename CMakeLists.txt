@@ -2,9 +2,10 @@ cmake_minimum_required(VERSION 3.14)
 project(cyber CXX ASM)
 
 #第三方库
-find_package(fastrtps REQUIRED)
-find_package(fastcdr REQUIRED)
-find_package(Protobuf REQUIRED)
+find_package(fastrtps 1.5.0 REQUIRED)
+find_package(fastcdr 1.0.7 REQUIRED)
+find_package(Protobuf 3.14 REQUIRED)
+find_package(glog 0.4.0 REQUIRED)
 include_directories(${FASTRTPS_INCLUDE_DIRS}
 					${FASTCDR_INCLUDE_DIRS}
 					${PROTOBUF_INCLUDE_DIR}
@@ -58,6 +59,6 @@ else()
 endif()
 
 add_library(cyber SHARED ${ALL_SRC})
-target_link_libraries(cyber ${PROTOBUF_LIBRARIES} fastrtps fastcdr glog rt atomic uuid dl)
+target_link_libraries(cyber ${PROTOBUF_LIBRARIES} fastrtps fastcdr glog::glog rt atomic uuid dl)
 
 add_subdirectory(cyber/examples)
