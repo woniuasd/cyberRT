@@ -14,3 +14,7 @@ target_link_libraries(talker cyber)
 add_executable(listener  ${CMAKE_CURRENT_SOURCE_DIR}/listener.cc
                          ${EXAMPLES_PROTO_GEN})
 target_link_libraries(listener cyber)
+
+add_executable(intra_talker_listener  ${CMAKE_CURRENT_SOURCE_DIR}/intra_talker_listener.cc
+                         ${EXAMPLES_PROTO_GEN})
+target_link_libraries(intra_talker_listener cyber)
