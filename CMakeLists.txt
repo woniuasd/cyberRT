@@ -23,10 +23,13 @@ endif()
 set(CMAKE_CXX_STANDARD 14)
 
 #protobuf代码生成
-file(GLOB PROTO_FILES ${CMAKE_CURRENT_SOURCE_DIR}/cyber/proto/*.proto)
+file(GLOB_RECURSE PROTO_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.proto)
 foreach(PROTO_FILE ${PROTO_FILES})
+	file(RELATIVE_PATH REL_FILE ${PROJECT_SOURCE_DIR} ${PROTO_FILE})
+	get_filename_component(DIR ${REL_FILE} DIRECTORY)
+	get_filename_component(FILE_WE ${REL_FILE} NAME_WE)
 	execute_process(
-		COMMAND protoc --proto_path=${CMAKE_CURRENT_SOURCE_DIR} -I=${CMAKE_CURRENT_SOURCE_DIR}/cyber/proto
+		COMMAND protoc --proto_path=${CMAKE_CURRENT_SOURCE_DIR} -I=${CMAKE_CURRENT_SOURCE_DIR}/${DIR}
 		 --cpp_out=${CMAKE_CURRENT_SOURCE_DIR} ${PROTO_FILE}
 		)
 endforeach()
